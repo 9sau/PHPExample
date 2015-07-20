@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonObject = new JSONObject();
                     jsonObject.put("name", "Saurabh");
                     jsonObject.put("email", "sau@gmail.com");
-                    URL url = new URL("http://10.0.2.2/test/test.php");
+                    URL url = new URL("http://t3teach.com/test/test.php");
 
 
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
