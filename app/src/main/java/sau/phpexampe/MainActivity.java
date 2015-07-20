@@ -1,9 +1,9 @@
 package sau.phpexampe;
 
+import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -21,7 +21,7 @@ import java.util.concurrent.ExecutionException;
 
 // test.php located inside -> go to the project view and find the file.
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private TextView resultView;
 
